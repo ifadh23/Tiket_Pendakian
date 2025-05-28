@@ -1,0 +1,63 @@
+/* Gaya untuk Halaman Pemesanan Tiket */
+body {
+    background-image: url('../images/hero-bg.jpg'); /* Gambar latar belakang */
+    background-size: cover; /* Mengatur ukuran gambar agar menutupi seluruh halaman */
+    background-position: center; /* Memusatkan gambar */
+    font-family: Arial, sans-serif; /* Font untuk halaman */
+    color: #333; /* Warna teks */
+}
+
+main {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: center; /* Memusatkan konten */
+    align-items: center; /* Menyelaraskan konten di tengah */
+    height: 100vh; /* Mengatur tinggi main agar memenuhi layar */
+    padding: 20px; /* Padding untuk konten utama */
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang putih dengan transparansi */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 30px; /* Padding untuk konten form */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan untuk kedalaman */
+    width: 100%; /* Lebar penuh */
+    max-width : 500px; /* Maksimal lebar untuk form */
+}
+
+h1 {
+    text-align: center; /* Menyelaraskan judul di tengah */
+    margin-bottom: 20px; /* Margin bawah untuk jarak */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Jarak antar elemen form */
+}
+
+label {
+    display: block; /* Menampilkan label sebagai blok */
+    margin-bottom: 5px; /* Jarak bawah untuk label */
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%; /* Lebar penuh untuk input */
+    padding: 10px; /* Padding untuk input */
+    border: 1px solid #ccc; /* Border untuk input */
+    border-radius: 4px; /* Sudut melengkung untuk input */
+}
+
+button {
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    padding: 10px 15px; /* Padding untuk tombol */
+    border: none; /* Menghilangkan border */
+    border-radius: 4px; /* Sudut melengkung untuk tombol */
+    cursor: pointer; /* Menunjukkan kursor pointer saat hover */
+    width: 100%; /* Lebar penuh untuk tombol */
+}
+
+button:hover {
+    background-color: #45a049; /* Warna latar belakang tombol saat hover */
+}

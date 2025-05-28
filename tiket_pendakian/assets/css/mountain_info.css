@@ -1,0 +1,42 @@
+/* Gaya untuk Halaman Informasi Gunung */
+body {
+    background-color: #f4f4f4; /* Warna latar belakang */
+    font-family: Arial, sans-serif; /* Font untuk halaman */
+}
+
+main {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: center; /* Memusatkan konten */
+    align-items: flex-start; /* Menyelaraskan konten di atas */
+    padding: 20px; /* Padding untuk konten utama */
+}
+
+.mountain-info-container {
+    max-width: 800px; /* Lebar maksimum kontainer */
+    width: 100%; /* Lebar penuh */
+    background-color: white; /* Latar belakang putih untuk konten */
+    border-radius: 5px; /* Sudut membulat */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+    padding: 20px; /* Padding di dalam kontainer */
+}
+
+h1 {
+    color: #4CAF50; /* Warna hijau untuk judul */
+    text-align: center; /* Teks rata tengah */
+}
+
+.mountain-card {
+    border: 1px solid #ddd; /* Border untuk kartu gunung */
+    border-radius: 5px; /* Sudut membulat */
+    padding: 15px; /* Padding di dalam kartu */
+    margin: 10px 0; /* Margin untuk jarak antar kartu */
+}
+
+h2 {
+    color: #333; /* Warna teks untuk nama gunung */
+}
+
+p {
+    margin: 5px 0; /* Margin untuk paragraf */
+    color: #555; /* Warna teks untuk paragraf */
+}

@@ -1,0 +1,83 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk Header */
+header {
+    background-color: #4CAF50; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 10px 0; /* Padding atas dan bawah */
+}
+
+nav {
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: space-between; /* Memisahkan logo dan menu */
+    align-items: center; /* Menyelaraskan item di tengah */
+    max-width: 1200px; /* Lebar maksimum navbar */
+    margin: 0 auto; /* Memusatkan navbar */
+    padding: 0 20px; /* Padding di kiri dan kanan */
+}
+
+nav .logo a {
+    font-size: 1.8em; /* Ukuran font untuk logo */
+    color: white; /* Warna teks logo */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+nav ul {
+    list-style-type: none; /* Menghilangkan bullet point */
+    padding: 0; /* Menghilangkan padding */
+    display: flex; /* Mengatur item navbar dalam satu baris */
+}
+
+nav ul li {
+    margin-left: 20px; /* Jarak antar item */
+}
+
+nav ul li a {
+    color: white; /* Warna teks tautan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    padding: 10px 15px; /* Padding untuk area klik yang lebih besar */
+    border-radius: 4px; /* Sudut melengkung */
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efek hover */
+}
+
+/* Gaya untuk Footer */
+footer {
+    text-align: center; /* Menyelaraskan teks di tengah */
+    padding: 10px 0; /* Padding atas dan bawah */
+    background-color: #4CAF50; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    width: 100%; /* Lebar penuh */
+    position: relative; /* Posisi relatif untuk footer */
+    bottom: 0; /* Menempatkan footer di bawah */
+}
+
+/* Gaya Umum */
+html, body {
+    height: 100%; /* Pastikan html dan body memiliki tinggi 100% */
+}
+
+body {
+    display: flex; /* Menggunakan flexbox untuk body */
+    flex-direction: column; /* Mengatur arah flex menjadi kolom */
+}
+
+header {
+    background-color: #4CAF50; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 10px 0; /* Padding atas dan bawah */
+}
+
+main {
+    flex: 1; /* Membuat main mengambil ruang yang tersisa */
+    padding: 20px; /* Padding untuk konten utama */
+}
